@@ -105,6 +105,10 @@ nav {
 	justify-items: center;
 	margin: 20px 100px 20px 200px;
 }
+#bottom {
+	margin-left: 200px;
+	padding-top: 75px;
+}
 footer {
 	text-align: center;
 }
@@ -114,14 +118,24 @@ footer {
 }
 .middle {
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: row wrap;
+	
 
 }
 
 .middle div {
-	
+	width: 450px;
+	height: 250px;
+	border: 1px solid black;
+	justify-content: space-around;
+	margin-left: 200px;
+	align-content: space-between;
+	margin-bottom: 50px;
+	padding-bottom: 150px;
 }
 .bottom2 {
 	display: flex;
 	justify-content: space-around;
+	margin-left: 200px;
+	padding-top: 100px;
 }
