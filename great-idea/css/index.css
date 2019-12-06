@@ -50,7 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border: 1px solid blue;
+	border: 1px solid blue !important;
 }
 
 html, body {
@@ -64,4 +64,64 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+/*styling for index*/
+nav {
+	height: 75px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+.heading {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 15px;
+	margin-left: 75px;
+	font-size: 75px;
+}
+.left-side {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: 300px;
+}
+
+.section1 {
+	display: flex;
+	width: 68%;
+	margin-left: 200px;
+
+}
+.section2 {
+	display: flex;
+	width: 68%;
+	margin-left: 200px;
+
+}
+.middle-img {
+	display: flex;
+	justify-items: center;
+	margin: 20px 100px 20px 200px;
+}
+footer {
+	text-align: center;
+}
+/* services code starts here*/
+.heading2 {
+	margin: 25px 190px 10px 200px;
+}
+.middle {
+	display: flex;
+	flex-flow: column wrap;
+
+}
+
+.middle div {
+	
+}
+.bottom2 {
+	display: flex;
+	justify-content: space-around;
+}
